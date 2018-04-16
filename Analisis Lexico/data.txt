@@ -1,0 +1,17 @@
+Proceso Resuelto05
+  Escribir "Dime el lado";
+  Leer lado;
+ 
+  Escribir "Dime el simbolo de relleno";
+  Leer simbolo;
+ 
+  Para fila<-1 Hasta lado Hacer
+ 
+    Para columna <- 1 Hasta lado Hacer
+      Escribir Sin Saltar simbolo ; // Escribir sin bajar de linea
+    FinPara
+ 
+    Escribir "";  // Avance de linea tras cada fila
+  FinPara
+ 
+FinProceso 
